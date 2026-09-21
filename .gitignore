@@ -216,3 +216,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# CatBoost training logs
+catboost_info/
+
+# Repo audit and tool artifacts
+INVENTORY.json
+
+# Generated model artifacts (OOF and embedding arrays)
+*.npy
+oof_*.npy
+test_*.npy
+*_embeddings.npy
+
+# Internal agent planning and state files
+PROJECT_STATE.md
+PROJECT_BEHAVIOR.md
+SWARMFOLDCORPUS.md
+IMPLEMENTATION_STRATEGY.md
+NOTEBOOK_REVIEW_REPORT.md
+STRATEGY.md
+.notebook-review/
+
+# Generated figures from notebook runs
+residual_tier_breakdown.png
+
